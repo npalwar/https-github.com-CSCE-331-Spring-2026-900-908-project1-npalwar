@@ -4,6 +4,12 @@ h1 {
     font-size: 36px;
 }
 
+h2 {
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+}
+
 nav {
   background-color: maroon;
 }
