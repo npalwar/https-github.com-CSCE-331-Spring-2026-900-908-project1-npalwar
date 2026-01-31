@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Showcase</title>
+</head>
+<body style="margin:0; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f0f4ff, #d9eaff);">
+
+    <!-- Navigation -->
+    <nav style="background-color: #4a90e2; padding: 15px; display: flex; justify-content: center;">
+        <a href="index.html" style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold;">Home</a>
+        <a href="portfolio.html" style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold;">Portfolio</a>
+        <a href="qualifications.html" style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold;">Qualifications</a>
+        <a href="service.html" style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold;">Service</a>
+        <a href="ai.html" style="color: white; text-decoration: none; margin: 0 20px; font-weight: bold;">AI Showcase</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section style="text-align: center; padding: 50px;">
+        <h1 style="font-size: 3em; color: #333;">Generative AI Showcase</h1>
+        <p style="font-size: 1.2em; color: #555; max-width: 700px; margin: 20px auto;">
+            Explore the capabilities of AI through this interactive and creative display.
+        </p>
+    </section>
+
+    <!-- Prompt Textbox -->
+    <section style="text-align: center; margin: 40px;">
+        <h2 style="color: #333;">Your Prompt</h2>
+        <textarea readonly
+                  style="width: 80%; max-width: 800px; height: 150px; padding: 15px; font-size: 1em; line-height: 1.5; 
+                         border: 2px solid #4a90e2; border-radius: 10px; resize: vertical; overflow-y: auto; background-color: #f9f9f9;">
+I am creating a personal website. My website has 4 sections: A home page, portfolio, qualifications, and service. The last page is an AI generated page for you to create in HTML/CSS. Styling will be handled through AI-generated inline CSS instead of from the required external CSS files. Presents the capabilities of generative artificial intelligence (genAI). Creates a text box in the new page  that contains the prompt. The text box refers to an HTML textbox. If the prompt is very lengthy, you should add a scrollbar to the text box. When it talks about the prompt in the text box, it is talking about the prompt I am typing to you right now. Be creative with the styling. When it says to "showcase the capabilities of generative AI", it does not mean to talk about generative AI on the webpage, but to do something impressive that AI can do. Also, it needs a way to navigate back to the other 4 pages. The page should be like something that would go on a personal website.
+        </textarea>
+    </section>
+
+    <!-- Generative AI Showcase -->
+    <section style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin: 50px 0;">
+        <!-- Example: AI-generated colorful shapes -->
+        <div style="width: 200px; height: 200px; background: radial-gradient(circle at 30% 30%, #ff7f50, #ff1493); border-radius: 50%; animation: float 5s ease-in-out infinite;"></div>
+        <div style="width: 200px; height: 200px; background: linear-gradient(45deg, #00f7ff, #ff00f7); border-radius: 20%; animation: float 6s ease-in-out infinite alternate;"></div>
+        <div style="width: 200px; height: 200px; background: conic-gradient(#f0ff00, #00ff0f, #0ff, #f00); border-radius: 40%; animation: float 4s ease-in-out infinite;"></div>
+    </section>
+
+    <!-- AI Animation Script -->
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg);}
+            50% { transform: translateY(-20px) rotate(15deg);}
+            100% { transform: translateY(0px) rotate(0deg);}
+        }
+    </style>
+
+    <!-- Footer / Navigation reminder -->
+    <footer style="text-align: center; padding: 30px; background-color: #4a90e2; color: white;">
+        <p>Navigate: <a href="index.html" style="color: #ffeb3b; text-decoration: none;">Home</a> | 
+                      <a href="portfolio.html" style="color: #ffeb3b; text-decoration: none;">Portfolio</a> | 
+                      <a href="qualifications.html" style="color: #ffeb3b; text-decoration: none;">Qualifications</a> | 
+                      <a href="service.html" style="color: #ffeb3b; text-decoration: none;">Service</a>
+        </p>
+    </footer>
+
+</body>
+</html>
