@@ -1,7 +1,16 @@
+body.alt{
+  background-color: black;
+  color: white;
+}
+
 h1 {
     color: maroon;
     text-align: center;
     font-size: 36px;
+}
+
+body.alt h1 {
+    color: white;
 }
 
 h2 {
@@ -10,13 +19,25 @@ h2 {
     font-size: 30px;
 }
 
+body.alt h2 {
+    color: white;
+}
+
 nav {
   background-color: maroon;
 }
 
+body.alt nav{
+  background-color: black;
+}
+
 nav ul {
-  display: flex;      /* makes items go side-by-side */
+  display: flex;     
   color: maroon;
+}
+
+body.alt nav ul {
+  color: black;
 }
 
 nav li {
@@ -58,3 +79,13 @@ nav a {
 .text-box {
   padding: 20px;
 }
+
+button {
+  display: block;              
+  margin: 40px auto;         
+  padding: 15px 40px;         
+  font-size: 18px;            
+  background-color: maroon;  
+  color: white;               
+  border: none;  
+}              
