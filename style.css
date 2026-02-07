@@ -88,4 +88,8 @@ button {
   background-color: maroon;  
   color: white;               
   border: none;  
-}              
+}   
+
+body.alt a {
+  color: lightblue;
+}
